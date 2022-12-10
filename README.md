@@ -6,7 +6,7 @@
 
 **Dramatron** can be run using the a web UI or as a Colab.
 
-1. Access the web UI demo [here](https://deepmind.github.io/dramatron/).
+1. Access the web UI demo [here](https://fdel15.github.io/dramatron/).
 
 1. For full functionality, run the Colab by opening `colab/dramatron.ipynb`. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/deepmind/dramatron/blob/main/colab/dramatron.ipynb)
 
@@ -16,19 +16,19 @@
 
 Dramatron is conceived as a writing tool and as a source of inspiration and exploration for writers. To evaluate Dramatron’s usability and capabilities, we engaged 15 playwrights and screenwriters in two-hour long user study sessions to co-write scripts alongside Dramatron.
 
-One concrete illustration of how Dramatron can be utilised by creative communities is how one playwright staged 4 heavily edited and rewritten scripts co-written alongside Dramatron. In the public theatre show, *Plays by Bots*, a talented cast of experienced actors with improvisational skills gave meaning to Dramatron scripts through acting and interpretation.
+One concrete illustration of how Dramatron can be utilised by creative communities is how one playwright staged 4 heavily edited and rewritten scripts co-written alongside Dramatron. In the public theatre show, _Plays by Bots_, a talented cast of experienced actors with improvisational skills gave meaning to Dramatron scripts through acting and interpretation.
 
 During the development of Dramatron and through discussions with industry professionals, we made several important observations:
 
-* Dramatron is a **co-writing** system that has only been used in collaboration with human writers, and was not conceived or evaluated to be used autonomously.
-* Dramatron’s top-down hierarchical story generation structure does not correspond to every writer's writing process.
-* The output of a language model may include elements of the text used to train the language model. One possible mitigation is for the human co-writer to search for substrings from outputs to help to identify plagiarism.
-* Dramatron may reproduce biases and stereotypes found in the corpus, and may generate offensive text. One possible mitigation is to use the [Perspective API](https://perspectiveapi.com/) for estimating toxicity scores of the language outputs, and filtering generations based on the Perspective API analysis.
+- Dramatron is a **co-writing** system that has only been used in collaboration with human writers, and was not conceived or evaluated to be used autonomously.
+- Dramatron’s top-down hierarchical story generation structure does not correspond to every writer's writing process.
+- The output of a language model may include elements of the text used to train the language model. One possible mitigation is for the human co-writer to search for substrings from outputs to help to identify plagiarism.
+- Dramatron may reproduce biases and stereotypes found in the corpus, and may generate offensive text. One possible mitigation is to use the [Perspective API](https://perspectiveapi.com/) for estimating toxicity scores of the language outputs, and filtering generations based on the Perspective API analysis.
 
 In our pre-print paper [Mirowski, Mathewson et al (2022) Co-Writing Screenplays and Theatre Scripts with Language Models: An Evaluation by Industry Professionals](https://arxiv.org/abs/2209.14958) we share many reflections including how playwrights reflected that they "wouldn't use [Dramatron] to write a full play," and that Dramatron's output can be "formulaic." Rather, they would use Dramatron for "world building," for exploring alternative stories by changing characters or plot elements, and for creative idea generation.
 
 Dramatron is a web interface and a Google Colab that interact with a pre-trained Large Language Model (LLM). Currently, Dramatron can be used with OpenAI's GPT-3 LLM. No user input (log lines, other prompts, edits), interactions or API keys are stored by Dramatron. Please refer to OpenAI's <a href='https://openai.com/privacy/'>Privacy Policy</a> and <a href='https://openai.com/terms/'>Terms of Use</a> if you use GPT-3.
-      
+
 We are looking forward to learning if and how you might incorporate Dramatron into your own artistic practices. If you’d like to share thoughts, comments, or observations or have any questions, please contact us at dramatron@deepmind.com.
 
 The guide for contributors to Dramatron can be found [here](CONTRIBUTING.md).
